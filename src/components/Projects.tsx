@@ -5,23 +5,26 @@ const projects = [
   {
     title: "Enterprise Platform Modernization",
     description: "Led the development of a scalable enterprise platform serving millions of users. Implemented microservices architecture and modern DevOps practices.",
-    tags: ["Architecture", "Cloud", "Leadership"]
+    tags: ["Architecture", "Cloud", "Leadership"],
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
   },
   {
     title: "AI-Powered Analytics Suite",
     description: "Implemented machine learning solutions to optimize business processes. Resulted in 30% improvement in prediction accuracy and 25% cost reduction.",
-    tags: ["AI/ML", "Python", "Innovation"]
+    tags: ["AI/ML", "Python", "Innovation"],
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
   },
   {
     title: "Digital Transformation Initiative",
     description: "Spearheaded company-wide digital transformation initiative. Successfully migrated legacy systems to modern cloud architecture.",
-    tags: ["Strategy", "Technology", "Change Management"]
+    tags: ["Strategy", "Technology", "Change Management"],
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
   }
 ];
 
 const Projects = () => {
   return (
-    <section className="py-20 px-4 bg-purple-50 dark:bg-gray-900">
+    <section className="py-20 px-4 bg-blue-50 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0 }}
@@ -40,14 +43,21 @@ const Projects = () => {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
             >
-              <Card className="p-6 h-full hover:shadow-lg transition-shadow duration-300 bg-white dark:bg-gray-800 border-purple-100 dark:border-purple-900">
+              <Card className="p-6 h-full hover:shadow-lg transition-shadow duration-300 bg-white dark:bg-gray-800 border-blue-100 dark:border-blue-900">
+                <div className="aspect-video mb-4 overflow-hidden rounded-lg">
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
                 <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
-                      className="px-3 py-1 text-sm bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded-full font-medium"
+                      className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full font-medium"
                     >
                       {tag}
                     </span>
