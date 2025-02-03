@@ -16,7 +16,7 @@ const Hero = () => {
           className="mb-8"
         >
           <img 
-            src="https://api.dicebear.com/7.x/initials/svg?seed=JD&backgroundColor=8b5cf6"
+            src="/jake.jpg"
             alt="Profile"
             className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-lg"
           />
