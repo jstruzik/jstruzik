@@ -6,11 +6,11 @@ import Skills from "@/components/Skills";
 
 const Index = () => {
   useEffect(() => {
-    console.log("Portfolio page loaded");
+    console.log("Resume template loaded");
   }, []);
 
   return (
-    <main className="bg-white">
+    <main className="bg-white dark:bg-gray-800">
       <Hero />
       <Experience />
       <Projects />
