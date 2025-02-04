@@ -14,7 +14,7 @@ const projects = [
     description: "Developed an AI-driven platform using scalable backend systems to generate personalized travel itineraries, integrating APIs with reliable performance.",
     tags: ["AI", "Typescript", "NextJS"],
     image: "/travelgpt.png",
-    url: "https://travelgpt.ai"
+    url: "https://travelgpt.io"
   },
   {
     title: "Coldrays",

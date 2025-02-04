@@ -13,7 +13,7 @@ const experiences = [
   {
     title: "Software Engineering Consultant",
     company: "PineCode LLC",
-    companyUrl: "https://pinecode.dev",
+    companyUrl: "https://pinecode.me",
     period: "2024 - Present",
     description: "Founder of a consulting agency specializing in designing, testing, and delivering software products that meet and exceed client expectations. Partner with clients to identify user needs, implement efficient solutions, and ensure successful product launches.",
     icon: Laptop
