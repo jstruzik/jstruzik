@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Building2, Code2, Laptop } from "lucide-react";
+import { Building2, Code2, Laptop, Rocket } from "lucide-react";
 
 const experiences = [
   {
@@ -7,14 +7,14 @@ const experiences = [
     company: "Coldrays",
     period: "2024 - Present",
     description: "Launched a technology-driven startup, leveraging automation and scalable solutions to address environmental challenges. Developed cross-functional strategies to align product development with business goals, driving adoption of innovative materials across diverse markets.",
-    icon: Building2
+    icon: Rocket
   },
   {
     title: "Software Engineering Consultant",
     company: "PineCode LLC",
     period: "2024 - Present",
     description: "Founder of a consulting agency specializing in designing, testing, and delivering software products that meet and exceed client expectations. Partner with clients to identify user needs, implement efficient solutions, and ensure successful product launches.",
-    icon: Building2
+    icon: Laptop
   },
   {
     title: "Director of Engineering",
@@ -35,14 +35,14 @@ const experiences = [
     company: "Robinpowered",
     period: "2015 - 2023",
     description: "Led backend engineering, mentoring junior engineers, improving architecture alignment, and delivering 50+ API features across multiple programming languages to scale core infrastructure.",
-    icon: Laptop
+    icon: Code2
   },
   {
     title: "Software Engineer",
     company: "One Mighty Roar",
     period: "2013 - 2015",
     description: "Worked for several agency clients at once delivering modernized web applications and hardware implementations in Node, AngularJS, and PHP to help the company approach its first $1M in annual revenue.",
-    icon: Laptop
+    icon: Code2
   }
 ];
 
