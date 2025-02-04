@@ -35,7 +35,7 @@ const Hero = () => {
           transition={{ delay: 0.4 }}
           className="inline-block px-4 py-2 mb-6 text-sm tracking-wider uppercase bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full font-medium"
         >
-          Engineering Leader ⚙️ | People Manager 👥
+          Engineering Leader ⚙️ | People Manager 👥 | Professional Dodgeballer 🤾‍♂️
         </motion.span>
         <motion.p 
           initial={{ opacity: 0 }}

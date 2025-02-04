@@ -3,15 +3,31 @@ import { motion } from "framer-motion";
 const skills = [
   {
     category: "Leadership",
-    items: ["Technical Leadership", "Team Management", "Strategic Planning", "Mentoring"]
+    items: ["Technical Leadership", "Team Management", "Strategic Planning", "Mentoring", "Hiring", "Onboarding"]
   },
   {
     category: "Technical",
-    items: ["System Architecture", "Cloud Computing", "Full Stack Development", "DevOps"]
+    items: ["System Architecture", "Agile Methodologies", "Design Review", "Incident Management"]
   },
   {
-    category: "Process",
-    items: ["Agile Methodologies", "Project Management", "Digital Transformation", "Innovation"]
+    category: "Languages",
+    items: ["TypeScript", "Python", "Golang", "PHP"]
+  },
+  {
+    category: "Data",
+    items: ["MySQL", "Postgres", "Redis", "Elasticsearch", "Kafka"]
+  },
+  {
+    category: "APIs",
+    items: ["REST", "GraphQL", "gRPC", "SOAP"]
+  },
+  {
+    category: "Cloud",
+    items: ["AWS", "Azure", "GCP", "Kubernetes", "Datadog", "Jenkins"]
+  },
+  {
+    category: "Sales Engineering",
+    items: ["Salesforce", "Hubspot", "Apollo.io", "Google Ads", "SEO",]
   }
 ];
 

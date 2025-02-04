@@ -3,24 +3,45 @@ import { Building2, Code2, Laptop } from "lucide-react";
 
 const experiences = [
   {
-    title: "Engineering Director",
-    company: "Tech Innovation Corp",
-    period: "2020 - Present",
-    description: "Leading multiple engineering teams, driving technical strategy, and fostering innovation culture. Responsible for architecture decisions and technology roadmap across multiple products.",
+    title: "COO and Founder",
+    company: "Coldrays",
+    period: "2024 - Present",
+    description: "Launched a technology-driven startup, leveraging automation and scalable solutions to address environmental challenges. Developed cross-functional strategies to align product development with business goals, driving adoption of innovative materials across diverse markets.",
     icon: Building2
   },
   {
-    title: "Engineering Manager",
-    company: "Software Solutions Inc",
-    period: "2017 - 2020",
-    description: "Managed cross-functional teams, implemented agile methodologies, and improved delivery processes. Reduced deployment time by 40% and increased team velocity by 25%.",
+    title: "Software Engineering Consultant",
+    company: "PineCode LLC",
+    period: "2024 - Present",
+    description: "Founder of a consulting agency specializing in designing, testing, and delivering software products that meet and exceed client expectations. Partner with clients to identify user needs, implement efficient solutions, and ensure successful product launches.",
+    icon: Building2
+  },
+  {
+    title: "Director of Engineering",
+    company: "Robinpowered",
+    period: "2023 - 2024",
+    description: "Led and scaled an engineering organization of five cross-functional teams, driving multi-million dollar ARR growth, post-acquisition integration, and AI adoption while improving system reliability and team execution.",
+    icon: Building2
+  },
+  {
+    title: "Senior Engineering Manager",
+    company: "Robinpowered",
+    period: "2019 - 2023",
+    description: "Managed and mentored 10+ engineers, driving team transformation, hiring strategy, and cross-functional collaboration while fostering innovation through leadership meetups and hackathons.",
     icon: Code2
   },
   {
-    title: "Senior Software Engineer",
-    company: "Digital Ventures",
-    period: "2014 - 2017",
-    description: "Led technical implementations, mentored junior developers, and architected scalable solutions. Implemented microservices architecture that improved system reliability by 99.9%.",
+    title: "Staff Software Engineer",
+    company: "Robinpowered",
+    period: "2015 - 2023",
+    description: "Led backend engineering, mentoring junior engineers, improving architecture alignment, and delivering 50+ API features across multiple programming languages to scale core infrastructure.",
+    icon: Laptop
+  },
+  {
+    title: "Software Engineer",
+    company: "One Mighty Roar",
+    period: "2013 - 2015",
+    description: "Worked for several agency clients at once delivering modernized web applications and hardware implementations in Node, AngularJS, and PHP to help the company approach its first $1M in annual revenue.",
     icon: Laptop
   }
 ];

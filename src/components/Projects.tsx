@@ -3,22 +3,22 @@ import { Card } from "@/components/ui/card";
 
 const projects = [
   {
-    title: "Enterprise Platform Modernization",
-    description: "Led the development of a scalable enterprise platform serving millions of users. Implemented microservices architecture and modern DevOps practices.",
-    tags: ["Architecture", "Cloud", "Leadership"],
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+    title: "Robin Office Management",
+    description: "Led the development of a scalable enterprise office management platform serving millions of users.",
+    tags: ["Architecture", "SaaS", "Leadership"],
+    image: "/robin.jpeg"
   },
   {
-    title: "AI-Powered Analytics Suite",
-    description: "Implemented machine learning solutions to optimize business processes. Resulted in 30% improvement in prediction accuracy and 25% cost reduction.",
-    tags: ["AI/ML", "Python", "Innovation"],
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+    title: "TravelGPT",
+    description: "Developed an AI-driven platform using scalable backend systems to generate personalized travel itineraries, integrating APIs with reliable performance.",
+    tags: ["AI", "Typescript", "NextJS"],
+    image: "/travelgpt.png"
   },
   {
-    title: "Digital Transformation Initiative",
-    description: "Spearheaded company-wide digital transformation initiative. Successfully migrated legacy systems to modern cloud architecture.",
-    tags: ["Strategy", "Technology", "Change Management"],
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    title: "Coldrays",
+    description: "Led technology, website, and operations of our extreme-heat startup Coldrays.",
+    tags: ["Energy Tech", "Startup", "Sustainability"],
+    image: "/coldrays.jpg"
   }
 ];
 
