@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Building2, Code2, Laptop, Rocket } from "lucide-react";
+import { Building2, Code2, Laptop, Rocket, Users } from "lucide-react";
 
 const experiences = [
   {
@@ -28,7 +28,7 @@ const experiences = [
     company: "Robinpowered",
     period: "2019 - 2023",
     description: "Managed and mentored 10+ engineers, driving team transformation, hiring strategy, and cross-functional collaboration while fostering innovation through leadership meetups and hackathons.",
-    icon: Code2
+    icon: Users
   },
   {
     title: "Staff Software Engineer",
