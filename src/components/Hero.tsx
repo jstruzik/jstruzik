@@ -27,7 +27,7 @@ const Hero = () => {
           transition={{ delay: 0.3 }}
           className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-400 tracking-tight"
         >
-          John Doe
+          Jake Struzik
         </motion.h1>
         <motion.span 
           initial={{ opacity: 0 }}
@@ -35,7 +35,7 @@ const Hero = () => {
           transition={{ delay: 0.4 }}
           className="inline-block px-4 py-2 mb-6 text-sm tracking-wider uppercase bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full font-medium"
         >
-          Software Engineering Director
+          Engineering Leader ⚙️ | People Manager 👥
         </motion.span>
         <motion.p 
           initial={{ opacity: 0 }}
