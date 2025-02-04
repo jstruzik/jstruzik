@@ -5,6 +5,7 @@ const experiences = [
   {
     title: "COO and Founder",
     company: "Coldrays",
+    companyUrl: "https://coldrays.com",
     period: "2024 - Present",
     description: "Launched a technology-driven startup, leveraging automation and scalable solutions to address environmental challenges. Developed cross-functional strategies to align product development with business goals, driving adoption of innovative materials across diverse markets.",
     icon: Rocket
@@ -12,6 +13,7 @@ const experiences = [
   {
     title: "Software Engineering Consultant",
     company: "PineCode LLC",
+    companyUrl: "https://pinecode.dev",
     period: "2024 - Present",
     description: "Founder of a consulting agency specializing in designing, testing, and delivering software products that meet and exceed client expectations. Partner with clients to identify user needs, implement efficient solutions, and ensure successful product launches.",
     icon: Laptop
@@ -19,6 +21,7 @@ const experiences = [
   {
     title: "Director of Engineering",
     company: "Robinpowered",
+    companyUrl: "https://robinpowered.com",
     period: "2023 - 2024",
     description: "Led and scaled an engineering organization of five cross-functional teams, driving multi-million dollar ARR growth, post-acquisition integration, and AI adoption while improving system reliability and team execution.",
     icon: Building2
@@ -26,6 +29,7 @@ const experiences = [
   {
     title: "Senior Engineering Manager",
     company: "Robinpowered",
+    companyUrl: "https://robinpowered.com",
     period: "2019 - 2023",
     description: "Managed and mentored 10+ engineers, driving team transformation, hiring strategy, and cross-functional collaboration while fostering innovation through leadership meetups and hackathons.",
     icon: Users
@@ -33,6 +37,7 @@ const experiences = [
   {
     title: "Staff Software Engineer",
     company: "Robinpowered",
+    companyUrl: "https://robinpowered.com",
     period: "2015 - 2023",
     description: "Led backend engineering, mentoring junior engineers, improving architecture alignment, and delivering 50+ API features across multiple programming languages to scale core infrastructure.",
     icon: Code2
@@ -40,6 +45,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company: "One Mighty Roar",
+    companyUrl: "https://onemightyroar.com",
     period: "2013 - 2015",
     description: "Worked for several agency clients at once delivering modernized web applications and hardware implementations in Node, AngularJS, and PHP to help the company approach its first $1M in annual revenue.",
     icon: Code2
@@ -73,10 +79,15 @@ const Experience = () => {
               <div className="flex items-center gap-2 mb-1">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{exp.title}</h3>
               </div>
-              <div className="flex items-center gap-2 text-blue-700 dark:text-blue-300 mb-2 font-medium">
+              <a 
+                href={exp.companyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-blue-700 dark:text-blue-300 mb-2 font-medium hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+              >
                 <exp.icon className="w-4 h-4" />
                 {exp.company}
-              </div>
+              </a>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{exp.description}</p>
             </motion.div>
           ))}
