@@ -3,7 +3,7 @@ import { Building2, Code2, Laptop, Rocket, Users } from "lucide-react";
 
 const experiences = [
   {
-    title: "COO and Founder",
+    title: "CTO and Founder",
     company: "Coldrays",
     companyUrl: "https://coldrays.com",
     period: "2024 - Present",
