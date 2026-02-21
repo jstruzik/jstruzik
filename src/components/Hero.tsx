@@ -16,7 +16,7 @@ const Hero = () => {
           className="mb-8"
         >
           <img 
-            src="/jake.jpg"
+            src={`${import.meta.env.BASE_URL}jake.jpg`}
             alt="Profile"
             className="w-32 h-32 object-cover rounded-full mx-auto mb-6 border-4 border-white shadow-lg"
           />
