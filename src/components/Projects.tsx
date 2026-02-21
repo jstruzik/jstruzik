@@ -6,21 +6,21 @@ const projects = [
     title: "Robin Office Management",
     description: "Led the development of a scalable enterprise office management platform serving millions of users.",
     tags: ["Architecture", "SaaS", "Leadership"],
-    image: "/robin.jpeg",
+    image: `${import.meta.env.BASE_URL}robin.jpeg`,
     url: "https://robinpowered.com"
   },
   {
     title: "TravelGPT",
     description: "Developed an AI-driven platform using scalable backend systems to generate personalized travel itineraries, integrating APIs with reliable performance.",
     tags: ["AI", "Typescript", "NextJS"],
-    image: "/travelgpt.png",
+    image: `${import.meta.env.BASE_URL}travelgpt.png`,
     url: "https://travelgpt.io"
   },
   {
     title: "Coldrays",
     description: "Led technology, website, and operations of our extreme-heat startup Coldrays.",
     tags: ["Energy Tech", "Startup", "Sustainability"],
-    image: "/coldrays.jpg",
+    image: `${import.meta.env.BASE_URL}coldrays.jpg`,
     url: "https://coldrays.com"
   }
 ];
