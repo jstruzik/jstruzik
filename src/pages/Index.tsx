@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-import { thoughts } from "@/data/thoughts";
-
 const base = import.meta.env.BASE_URL;
 
 const links = [
@@ -117,25 +114,6 @@ const Index = () => {
           </div>
         </div>
       </header>
-
-      <section className="mx-auto grid max-w-6xl border-b-4 border-[#151515] px-4 py-10 md:grid-cols-[220px_1fr] md:px-6">
-        <h2 className="font-mono text-lg uppercase">Current Thoughts</h2>
-        <div className="mt-5 grid gap-3 md:mt-0 md:grid-cols-3">
-          {thoughts.map((thought) => (
-            <Link
-              key={thought.slug}
-              to={`/thoughts/${thought.slug}`}
-              className="block border-4 border-[#151515] bg-white p-4 hover:bg-[#dce7f7]"
-            >
-              <h3 className="mt-2 font-serif text-2xl font-black leading-none">
-                {thought.title}
-              </h3>
-              <p className="mt-3 text-lg leading-snug">{thought.summary}</p>
-              <p className="mt-4 font-mono text-xs uppercase underline">Read</p>
-            </Link>
-          ))}
-        </div>
-      </section>
 
       <section className="mx-auto grid max-w-6xl border-b-4 border-[#151515] px-4 py-10 md:grid-cols-[220px_1fr] md:px-6">
         <h2 className="font-mono text-lg uppercase">Work</h2>
