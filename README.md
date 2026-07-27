@@ -20,7 +20,9 @@ Output goes to `dist/`. Deployed to GitHub Pages by `.github/workflows/deploy.ym
 
 ## Writing
 
-Add a `.md` or `.mdx` file to `src/content/writing/` with frontmatter:
+The writing section is currently disabled: draft posts live in `src/content/writing/` but no pages render them. To re-enable it, restore the `src/pages/writing/` pages (see git history) and add a Writing link to the nav in `src/layouts/Layout.astro`.
+
+Posts are `.md` or `.mdx` files in `src/content/writing/` with frontmatter:
 
 ```markdown
 ---
