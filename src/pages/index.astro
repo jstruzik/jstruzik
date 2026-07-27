@@ -1,0 +1,43 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Jacob Struzik",
+  jobTitle: "Engineering Leader",
+  url: "https://jacobstruzik.com",
+  email: "mailto:jacobstruzik@gmail.com",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Seattle",
+    addressRegion: "WA",
+    addressCountry: "US",
+  },
+  sameAs: [
+    "https://github.com/jstruzik",
+    "https://www.linkedin.com/in/jstruzik/",
+  ],
+});
+---
+
+<Layout>
+  <script type="application/ld+json" set:html={jsonLd} slot="head" />
+  <h1>Jacob Struzik</h1>
+  <p>
+    I am an engineering leader in Seattle. I work on developer platforms and
+    AI-native engineering.
+  </p>
+  <p>
+    I am a Senior Engineering Manager at <a href="https://posit.co">Posit</a>,
+    where I lead the Package Manager team. Before that I founded Coldrays, a
+    climate materials company, and led engineering at Robin. I write about how
+    engineering teams adopt AI.
+  </p>
+  <ul>
+    <li><a href="https://github.com/jstruzik">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/jstruzik/">LinkedIn</a></li>
+    <li><a href="mailto:jacobstruzik@gmail.com">Email</a></li>
+    <li><a href="/writing/">Writing</a></li>
+  </ul>
+</Layout>

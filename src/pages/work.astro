@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Work — Jacob Struzik"
+  description="Case studies from Jacob Struzik's work on delivery velocity, AI triage, and code review."
+>
+  <h1>Work</h1>
+  <p class="muted">Short case studies. Longer writeups are in progress.</p>
+
+  <h2>Tripling delivery velocity with AI-native engineering</h2>
+  <p>
+    My team shipped quarterly releases. We moved to monthly. CI runs that took
+    90 minutes or more now finish in under 15. Manual testing dropped by about
+    95 percent. I led the shift to AI-native engineering practices that made
+    this possible and rebuilt the delivery pipeline around them.
+  </p>
+
+  <h2>A cross-team triage bot on Claude and AWS Bedrock</h2>
+  <p>
+    Support escalations to engineering took about three days to resolve. I
+    built a triage bot on Claude and AWS Bedrock with a custom Zendesk MCP
+    server and a GitHub MCP proxy, so it could read tickets and code context
+    directly. Escalation resolution dropped from about three days to about two
+    hours.
+  </p>
+
+  <h2>Risk-scoring PRs with evals to unblock the review bottleneck</h2>
+  <p>
+    Code review was the slowest step in our pipeline. I built a system that
+    scores each pull request for risk, with evals to keep the scoring honest.
+    Low-risk changes now move through a lighter review path.
+  </p>
+</Layout>
